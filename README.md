@@ -247,17 +247,9 @@ gtkwave dump.vcd
 Possible extensions:
 
 - Branch prediction
+- Branch recovery
 - Load/store queue
 - Memory disambiguation
-- Superscalar issue scaling
-- Physical register file
-- Common data bus arbitration
-- Speculative execution
-- Branch recovery
-- Cache hierarchy
+
 
 ---
-
-# Author
-
-Designed and implemented in SystemVerilog as a learning-oriented superscalar processor project focused on Tomasulo-style out-of-order execution.
