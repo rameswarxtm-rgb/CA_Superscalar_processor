@@ -97,34 +97,12 @@ Supports:
 
 ---
 
-# Example Instruction Stream
-
-```assembly
-add r1,r2,r3
-sub r5,r1,r5
-mul r6,r7,r8
-mul r6,r6,r7
-```
-
 This demonstrates:
 
 - RAW dependencies
 - Register renaming
 - Out-of-order scheduling
 - ROB commit behavior
-
----
-
-# Pipeline Stages
-
-| Stage | Description |
-|---|---|
-| IF | Instruction Fetch |
-| ID | Decode + Rename |
-| RS | Reservation Station |
-| EX | Execute |
-| WB | Writeback |
-| COMMIT | ROB Commit |
 
 ---
 
