@@ -377,13 +377,13 @@ module superscalar_top
         .tag_b2(rs_srcb2_tag),
         .dest_tag2(rs_dsttag2),
 
-        .wb_en1(valid_out11),
-        .wb_tag1(result_tag1),
-        .wb_value1(result1),
+        .wb_en1(alu_valid1),
+		.wb_tag1(alu_tag1),
+		.wb_value1(alu_result1),
 
-        .wb_en2(valid_out12),
-        .wb_tag2(result_tag2),
-        .wb_value2(result2),
+		.wb_en2(alu_valid2),
+		.wb_tag2(alu_tag2),
+		.wb_value2(alu_result2),
 
         .issue1_op(issue1_op),
         .issue1_a(issue1_a),
